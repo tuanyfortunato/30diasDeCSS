@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-top: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin: 0 30px;
+  width: 70px;
+  height: 70px;
+  /* background: #ccc; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+ul li span {
+  top: 0;
+  right: 0;
+  background: #000;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px !important;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+ul li:hover {
+  cursor: pointer;
+  transform: translate(0px, -20px);
+  box-shadow: 5px 15px 16px 0px rgba(50, 50, 50, 0.8);
+  transition: 0.5s;
+}
+
+.liFacebook span {
+  background: #3b5999;
+}
+
+.liTwitter span {
+  background: #55acee;
+}
+
+.liLinkedin span {
+  background: #0077b5;
+}
+
+.liInstagram span {
+  background: #e4405f;
+}
