@@ -1,2 +1,1 @@
-#30diasDeCSS
-Desafio de 30 dias postando mini projetos de CSS
+Desafio postando aqui mini projetos de CSS
